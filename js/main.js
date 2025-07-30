@@ -11,44 +11,44 @@ const planLoading = () => {
   if( window.innerWidth > 700 ){
     if( hash == '#ru'){
       imgHtmlPlan.setAttribute('class', 'plans ru-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/ru-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/ru-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
     if( hash == '#eng'){
       imgHtmlPlan.setAttribute('class', 'plans eng-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/eng-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/eng-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
     if( hash == '#ua'){
       imgHtmlPlan.setAttribute('class', 'plans ua-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/ukr-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/ukr-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
     if( hash == '#pl'){
       imgHtmlPlan.setAttribute('class', 'plans pl-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/pl-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/pl-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
   }
   if( window.innerWidth <= 700 ){
     if( hash == '#ru'){
       imgHtmlPlan.setAttribute('class', 'plans ru-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/ru-phone-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/ru-phone-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
     if( hash == '#eng'){
       imgHtmlPlan.setAttribute('class', 'plans eng-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/eng-phone-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/eng-phone-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
     if( hash == '#ua'){
       imgHtmlPlan.setAttribute('class', 'plans ua-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/ukr-phone-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/ukr-phone-plan.png");
       planBody.appendChild(imgHtmlPlan);
     }
     if( hash == '#pl'){
       imgHtmlPlan.setAttribute('class', 'plans pl-plan');
-      imgHtmlPlan.setAttribute('src', "../img/plans/pl-phone-plan.png");
+      imgHtmlPlan.setAttribute('src', "./img/plans/pl-phone-plan.png");
       planBody.appendChild(imgHtmlPlan);
 
     }
